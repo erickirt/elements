@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.2.0-alpha.14](https://github.com/erickirt/elements/compare/@mux/mux-active-viewer-count@0.2.0-alpha.13...@mux/mux-active-viewer-count@0.2.0-alpha.14) (2026-01-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade media chrome to 4.1.0 ([#978](https://github.com/erickirt/elements/issues/978))
+
+### Features
+
+* Mux active viewer count ([#560](https://github.com/erickirt/elements/issues/560)) ([37a8ec6](https://github.com/erickirt/elements/commit/37a8ec60360e74e3abc7701d6edb9a4c5e02be41))
+* **mux-player-react:** Force minor version bump via conventional commits. ([201bfcd](https://github.com/erickirt/elements/commit/201bfcd2a4137b2c409d1ce5fb3b32576a99ba31))
+* Set default player init time for all elements for greater accuracy. Expose attr+prop for externally defined player init time. ([#1034](https://github.com/erickirt/elements/issues/1034)) ([61f10d3](https://github.com/erickirt/elements/commit/61f10d3933e487e44795a8e42e36721ae00873d2))
+
+
+### Bug Fixes
+
+* move package exports default condition to be last ([#1013](https://github.com/erickirt/elements/issues/1013)) ([192aa79](https://github.com/erickirt/elements/commit/192aa79903d3c01fc9ce9fda3d8a35be3c56fc83))
+* Reverting packages type (defaults to cjs) for accuracy per node … ([#745](https://github.com/erickirt/elements/issues/745)) ([9e7a171](https://github.com/erickirt/elements/commit/9e7a17113e14b711c8da9b1bdafe65ee86454b3b))
+* upgrade dependencies (castable-video, ...) ([#1087](https://github.com/erickirt/elements/issues/1087)) ([dc84f07](https://github.com/erickirt/elements/commit/dc84f07109565dc7ee29d691a0fc941c6854f762))
+* upgrade deps custom-media-element, hls.js, mux-embed, ... ([#1052](https://github.com/erickirt/elements/issues/1052)) ([dd4264d](https://github.com/erickirt/elements/commit/dd4264d51671989a29c037e912a128056acea5f8))
+* upgrade external deps, allow patches uniform ([#850](https://github.com/erickirt/elements/issues/850)) ([f72acf4](https://github.com/erickirt/elements/commit/f72acf49199497cb45c186bd4b2bc2a67e5431c0))
+* upgrade MC & integrate media-time-display ([#631](https://github.com/erickirt/elements/issues/631)) ([78dc0b8](https://github.com/erickirt/elements/commit/78dc0b897b1c0b892e614493c9c084ebe145fe49))
+* upgrade MC, fix theme flicker ([#1067](https://github.com/erickirt/elements/issues/1067)) ([b2fad06](https://github.com/erickirt/elements/commit/b2fad068300420d12ad25f26f24f8189f7ba6907))
+* upgrade media-chrome + turbo ([#838](https://github.com/erickirt/elements/issues/838)) ([a7c4948](https://github.com/erickirt/elements/commit/a7c49488ccbc3c1a9d087775d8ee83298acd1e91))
+* upgrade mux-embed v5.2.0 & media-chrome v3.2.0 ([#897](https://github.com/erickirt/elements/issues/897)) ([fd91d94](https://github.com/erickirt/elements/commit/fd91d946ee2f8e58e05551fcb247422de6fbb761))
+
+
+### Miscellaneous Chores
+
+* Upgrade media chrome to 4.1.0 ([#978](https://github.com/erickirt/elements/issues/978)) ([ff78173](https://github.com/erickirt/elements/commit/ff781732c86719de2ea7e54987c75178ac42bbd6))
+
 ## [0.2.0-alpha.13](https://github.com/muxinc/elements/compare/@mux/mux-active-viewer-count@0.2.0-alpha.12...@mux/mux-active-viewer-count@0.2.0-alpha.13) (2025-03-21)
 
 

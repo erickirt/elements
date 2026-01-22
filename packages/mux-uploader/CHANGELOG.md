@@ -3,6 +3,65 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/erickirt/elements/compare/@mux/mux-uploader@1.4.1...@mux/mux-uploader@2.0.0) (2026-01-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade media chrome to 4.1.0 ([#978](https://github.com/erickirt/elements/issues/978))
+* **mux-uploader, mux-uploader-react:** Downgrade version for tooling.
+* **mux-uploader, mux-uploader-react:** Force version bump based on tooling.
+* **mux-uploader:** removes the formatProgress property and status attribute
+
+### Features
+
+* add additional custom properties to mux-uploader progress bar ([#1069](https://github.com/erickirt/elements/issues/1069)) ([bbe1e38](https://github.com/erickirt/elements/commit/bbe1e38af108a79a45ebfe712a76d0dcab7c5d94))
+* Add internationalization support to MuxUploader ([#1220](https://github.com/erickirt/elements/issues/1220)) ([64cf297](https://github.com/erickirt/elements/commit/64cf297cbafbd2beb7db47fb8eba05fddbd2c47f))
+* clean up type attr. Handle dynamic updates better. ([#937](https://github.com/erickirt/elements/issues/937)) ([4f9e4a7](https://github.com/erickirt/elements/commit/4f9e4a720ddce3f36c04532e26f9860e13f8cccd))
+* mux uploader large file fallback ([#934](https://github.com/erickirt/elements/issues/934)) ([87acf67](https://github.com/erickirt/elements/commit/87acf67024a138d77646332667ea8153e3f4607e)), closes [#892](https://github.com/erickirt/elements/issues/892)
+* **mux-player-react:** Force minor version bump via conventional commits. ([201bfcd](https://github.com/erickirt/elements/commit/201bfcd2a4137b2c409d1ce5fb3b32576a99ba31))
+* **mux-uploader, mux-uploader-react:** Add pausable functionality and pause button component. ([#918](https://github.com/erickirt/elements/issues/918)) ([9198771](https://github.com/erickirt/elements/commit/919877119d30db5a108e4b0bbe9309ecdce7e646))
+* **mux-uploader, mux-uploader-react:** Downgrade version for tooling. ([2a830f0](https://github.com/erickirt/elements/commit/2a830f060ad5119c7f20ee8091ef976ae3e388a8))
+* **mux-uploader, mux-uploader-react:** Force version bump based on tooling. ([fa6e20f](https://github.com/erickirt/elements/commit/fa6e20f9883071364c6dfd6ed086f2fe344d798d))
+* **mux-uploader, mux-uploader-react:** Make 1.0.0 official. ([#953](https://github.com/erickirt/elements/issues/953)) ([9077b72](https://github.com/erickirt/elements/commit/9077b72e275b43faf91cf4eb48829530e8f87156))
+* **mux-uploader:** Allow audio files to upload ([#826](https://github.com/erickirt/elements/issues/826)) ([510d54a](https://github.com/erickirt/elements/commit/510d54a544fdba48fcef288524c4ee14fccff2bc))
+* **mux-uploader:** Clean up styling and templating code for mux-uploader for (re)sizing. ([#922](https://github.com/erickirt/elements/issues/922)) ([13c7401](https://github.com/erickirt/elements/commit/13c74011a19ad6e575764e0a2fb43b9bf27023c0))
+* **mux-uploader:** conditional render based on attributes ([#645](https://github.com/erickirt/elements/issues/645)) ([59a0978](https://github.com/erickirt/elements/commit/59a09789fa4a0c03bfae448b44ace03638d83d06))
+* **mux-uploader:** export parts for each default component ([#687](https://github.com/erickirt/elements/issues/687)) ([b7e8abf](https://github.com/erickirt/elements/commit/b7e8abf0d878f45774fa12c273516db7d26e20f9))
+* **mux-uploader:** introduce chunkSize ([#694](https://github.com/erickirt/elements/issues/694)) ([1c29f8f](https://github.com/erickirt/elements/commit/1c29f8f2dac54fcad007e992d41e19d34ff575e6))
+* **mux-uploader:** support max file size ([#658](https://github.com/erickirt/elements/issues/658)) fixes [#338](https://github.com/erickirt/elements/issues/338) ([1d79b9e](https://github.com/erickirt/elements/commit/1d79b9e5dec5136a59735b036cbe04495d28814f))
+* Set default player init time for all elements for greater accuracy. Expose attr+prop for externally defined player init time. ([#1034](https://github.com/erickirt/elements/issues/1034)) ([61f10d3](https://github.com/erickirt/elements/commit/61f10d3933e487e44795a8e42e36721ae00873d2))
+
+
+### Bug Fixes
+
+* button text for file-select slot can now be customized ([#1252](https://github.com/erickirt/elements/issues/1252)) ([240d2ae](https://github.com/erickirt/elements/commit/240d2aea4cf06846534eff0e54f10c8562aa185f))
+* move package exports default condition to be last ([#1013](https://github.com/erickirt/elements/issues/1013)) ([192aa79](https://github.com/erickirt/elements/commit/192aa79903d3c01fc9ce9fda3d8a35be3c56fc83))
+* **mux-uploader, mux-uploader-react:** Minor cleanup ([#935](https://github.com/erickirt/elements/issues/935)) ([3efe356](https://github.com/erickirt/elements/commit/3efe35628465b033ab0bb533fb3dff6d25e5774e))
+* **mux-uploader:** Bump upchunk for min and max bug that impacts dynamic chunk sizing. ([#557](https://github.com/erickirt/elements/issues/557)) ([33a4690](https://github.com/erickirt/elements/commit/33a4690b470b64959fb6bc769825f4e309fd2bef))
+* **mux-uploader:** conditionally render mux-uploader-drop ([#623](https://github.com/erickirt/elements/issues/623)) ([0d260b5](https://github.com/erickirt/elements/commit/0d260b5c7d81c173bec1792f5afe35986d090047))
+* **mux-uploader:** Don't reset state when endpoint is changed. ([#677](https://github.com/erickirt/elements/issues/677)) ([f2e40ac](https://github.com/erickirt/elements/commit/f2e40ac73c8696203060da4393943283b5f2c64d))
+* **mux-uploader:** Establish pattern for default slot content ([#580](https://github.com/erickirt/elements/issues/580)) ([8cfeec6](https://github.com/erickirt/elements/commit/8cfeec62e8599063469b6d6f07f0a852be2cf0fe))
+* **mux-uploader:** fixing dropzone styling regressions ([#625](https://github.com/erickirt/elements/issues/625)) ([ab2ae48](https://github.com/erickirt/elements/commit/ab2ae486f55c8ee6ca6e4d0618f84f93bafceb91))
+* **mux-uploader:** modify the layout to fix layering ([#684](https://github.com/erickirt/elements/issues/684)) ([9c62cf5](https://github.com/erickirt/elements/commit/9c62cf555f599d72023ebfabf520ba9981268ebc))
+* **mux-uploader:** Upgrade upchunk. Use static class createUpload met… ([#693](https://github.com/erickirt/elements/issues/693)) ([a25c2c7](https://github.com/erickirt/elements/commit/a25c2c757aa41568f0ea0e1d3b085d8b85d0b65a))
+* **mux-uploader:** uploader components state cleanup ([#906](https://github.com/erickirt/elements/issues/906)) ([668f35d](https://github.com/erickirt/elements/commit/668f35d5f5692740b879933cf675a32f9d3fcef7))
+* Reverting packages type (defaults to cjs) for accuracy per node … ([#745](https://github.com/erickirt/elements/issues/745)) ([9e7a171](https://github.com/erickirt/elements/commit/9e7a17113e14b711c8da9b1bdafe65ee86454b3b))
+* update typedefs, disable skipLibChecks in tsconfig ([#601](https://github.com/erickirt/elements/issues/601)) ([1664aec](https://github.com/erickirt/elements/commit/1664aec20e4cf4a59779848b298d4504eef24080))
+* upgrade dependencies (castable-video, ...) ([#1087](https://github.com/erickirt/elements/issues/1087)) ([dc84f07](https://github.com/erickirt/elements/commit/dc84f07109565dc7ee29d691a0fc941c6854f762))
+* upgrade deps custom-media-element, hls.js, mux-embed, ... ([#1052](https://github.com/erickirt/elements/issues/1052)) ([dd4264d](https://github.com/erickirt/elements/commit/dd4264d51671989a29c037e912a128056acea5f8))
+* upgrade external deps, allow patches uniform ([#850](https://github.com/erickirt/elements/issues/850)) ([f72acf4](https://github.com/erickirt/elements/commit/f72acf49199497cb45c186bd4b2bc2a67e5431c0))
+* upgrade MC, fix theme flicker ([#1067](https://github.com/erickirt/elements/issues/1067)) ([b2fad06](https://github.com/erickirt/elements/commit/b2fad068300420d12ad25f26f24f8189f7ba6907))
+* upgrade media-chrome + turbo ([#838](https://github.com/erickirt/elements/issues/838)) ([a7c4948](https://github.com/erickirt/elements/commit/a7c49488ccbc3c1a9d087775d8ee83298acd1e91))
+* upgrade media-chrome, upchunk, React types ([#904](https://github.com/erickirt/elements/issues/904)) ([1090ad6](https://github.com/erickirt/elements/commit/1090ad690261acd7ac1ab68b45801c46be1c2d0c))
+* upgrade mux-embed v5.2.0 & media-chrome v3.2.0 ([#897](https://github.com/erickirt/elements/issues/897)) ([fd91d94](https://github.com/erickirt/elements/commit/fd91d946ee2f8e58e05551fcb247422de6fbb761))
+
+
+### Miscellaneous Chores
+
+* **mux-uploader:** refactor percentage progress into progress component ([#555](https://github.com/erickirt/elements/issues/555)) ([5331f61](https://github.com/erickirt/elements/commit/5331f615d6e9b4e9b0590b8862df63d98d216a78))
+* Upgrade media chrome to 4.1.0 ([#978](https://github.com/erickirt/elements/issues/978)) ([ff78173](https://github.com/erickirt/elements/commit/ff781732c86719de2ea7e54987c75178ac42bbd6))
+
 ## [1.4.1](https://github.com/muxinc/elements/compare/@mux/mux-uploader@1.4.0...@mux/mux-uploader@1.4.1) (2025-12-04)
 
 
