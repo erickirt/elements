@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/erickirt/elements/compare/@mux/mux-elements-codemod@1.1.12...@mux/mux-elements-codemod@2.0.0) (2026-01-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade media chrome to 4.1.0 ([#978](https://github.com/erickirt/elements/issues/978))
+
+### Features
+
+* **mux-player-react:** Force minor version bump via conventional commits. ([201bfcd](https://github.com/erickirt/elements/commit/201bfcd2a4137b2c409d1ce5fb3b32576a99ba31))
+
+
+### Bug Fixes
+
+* update typedefs, disable skipLibChecks in tsconfig ([#601](https://github.com/erickirt/elements/issues/601)) ([1664aec](https://github.com/erickirt/elements/commit/1664aec20e4cf4a59779848b298d4504eef24080))
+* upgrade dependencies (castable-video, ...) ([#1087](https://github.com/erickirt/elements/issues/1087)) ([dc84f07](https://github.com/erickirt/elements/commit/dc84f07109565dc7ee29d691a0fc941c6854f762))
+* upgrade deps custom-media-element, hls.js, mux-embed, ... ([#1052](https://github.com/erickirt/elements/issues/1052)) ([dd4264d](https://github.com/erickirt/elements/commit/dd4264d51671989a29c037e912a128056acea5f8))
+* upgrade hls.js to 1.6.13 ([#1211](https://github.com/erickirt/elements/issues/1211)) ([8f0c917](https://github.com/erickirt/elements/commit/8f0c917269391d901692f0bdd7156b965f0582d6))
+
+
+### Miscellaneous Chores
+
+* Upgrade media chrome to 4.1.0 ([#978](https://github.com/erickirt/elements/issues/978)) ([ff78173](https://github.com/erickirt/elements/commit/ff781732c86719de2ea7e54987c75178ac42bbd6))
+
 ## [1.1.12](https://github.com/muxinc/elements/compare/@mux/mux-elements-codemod@1.1.11...@mux/mux-elements-codemod@1.1.12) (2025-10-24)
 
 

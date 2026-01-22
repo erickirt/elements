@@ -3,6 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/erickirt/elements/compare/@mux/mux-uploader-react@1.4.1...@mux/mux-uploader-react@2.0.0) (2026-01-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade media chrome to 4.1.0 ([#978](https://github.com/erickirt/elements/issues/978))
+* **mux-uploader, mux-uploader-react:** Downgrade version for tooling.
+* **mux-uploader, mux-uploader-react:** Force version bump based on tooling.
+* **mux-uploader:** removes the formatProgress property and status attribute
+
+### Features
+
+* add additional custom properties to mux-uploader progress bar ([#1069](https://github.com/erickirt/elements/issues/1069)) ([bbe1e38](https://github.com/erickirt/elements/commit/bbe1e38af108a79a45ebfe712a76d0dcab7c5d94))
+* Add internationalization support to MuxUploader ([#1220](https://github.com/erickirt/elements/issues/1220)) ([64cf297](https://github.com/erickirt/elements/commit/64cf297cbafbd2beb7db47fb8eba05fddbd2c47f))
+* clean up type attr. Handle dynamic updates better. ([#937](https://github.com/erickirt/elements/issues/937)) ([4f9e4a7](https://github.com/erickirt/elements/commit/4f9e4a720ddce3f36c04532e26f9860e13f8cccd))
+* mux uploader large file fallback ([#934](https://github.com/erickirt/elements/issues/934)) ([87acf67](https://github.com/erickirt/elements/commit/87acf67024a138d77646332667ea8153e3f4607e)), closes [#892](https://github.com/erickirt/elements/issues/892)
+* **mux-player-react, mux-uploader-react, mux-audio-react, mux-video-react:** add client component directive ([#911](https://github.com/erickirt/elements/issues/911)) ([76aa003](https://github.com/erickirt/elements/commit/76aa003e9ad9488509650970b971edd3ed463592))
+* **mux-player-react:** Force minor version bump via conventional commits. ([201bfcd](https://github.com/erickirt/elements/commit/201bfcd2a4137b2c409d1ce5fb3b32576a99ba31))
+* **mux-uploader, mux-uploader-react:** Add pausable functionality and pause button component. ([#918](https://github.com/erickirt/elements/issues/918)) ([9198771](https://github.com/erickirt/elements/commit/919877119d30db5a108e4b0bbe9309ecdce7e646))
+* **mux-uploader, mux-uploader-react:** Downgrade version for tooling. ([2a830f0](https://github.com/erickirt/elements/commit/2a830f060ad5119c7f20ee8091ef976ae3e388a8))
+* **mux-uploader, mux-uploader-react:** Force version bump based on tooling. ([fa6e20f](https://github.com/erickirt/elements/commit/fa6e20f9883071364c6dfd6ed086f2fe344d798d))
+* **mux-uploader, mux-uploader-react:** Make 1.0.0 official. ([#953](https://github.com/erickirt/elements/issues/953)) ([9077b72](https://github.com/erickirt/elements/commit/9077b72e275b43faf91cf4eb48829530e8f87156))
+* **mux-uploader:** introduce chunkSize ([#694](https://github.com/erickirt/elements/issues/694)) ([1c29f8f](https://github.com/erickirt/elements/commit/1c29f8f2dac54fcad007e992d41e19d34ff575e6))
+
+
+### Bug Fixes
+
+* Add className types for all Mux Uploader react subcomponents. ([#903](https://github.com/erickirt/elements/issues/903)) ([c492f9e](https://github.com/erickirt/elements/commit/c492f9ea9c9886139f6bf89d9fb299c731bfdffc))
+* add updated peer deps to other React pkgs ([#1006](https://github.com/erickirt/elements/issues/1006)) ([e51a7ce](https://github.com/erickirt/elements/commit/e51a7ce412ce7f56610035f412e2f263325ed6ad))
+* mark React 19 as peerdep ([#971](https://github.com/erickirt/elements/issues/971)) ([4f74ea0](https://github.com/erickirt/elements/commit/4f74ea0215407e5c9573d8dd4a91d2a855b864bb))
+* move package exports default condition to be last ([#1013](https://github.com/erickirt/elements/issues/1013)) ([192aa79](https://github.com/erickirt/elements/commit/192aa79903d3c01fc9ce9fda3d8a35be3c56fc83))
+* **mux-uploader-react:** Use correct custom element name and rename i… ([#1073](https://github.com/erickirt/elements/issues/1073)) ([1851d10](https://github.com/erickirt/elements/commit/1851d105771c4cce731d3a814e3d916422b09381))
+* **mux-uploader, mux-uploader-react:** Minor cleanup ([#935](https://github.com/erickirt/elements/issues/935)) ([3efe356](https://github.com/erickirt/elements/commit/3efe35628465b033ab0bb533fb3dff6d25e5774e))
+* Reverting packages type (defaults to cjs) for accuracy per node … ([#745](https://github.com/erickirt/elements/issues/745)) ([9e7a171](https://github.com/erickirt/elements/commit/9e7a17113e14b711c8da9b1bdafe65ee86454b3b))
+* update typedefs, disable skipLibChecks in tsconfig ([#601](https://github.com/erickirt/elements/issues/601)) ([1664aec](https://github.com/erickirt/elements/commit/1664aec20e4cf4a59779848b298d4504eef24080))
+* upgrade dependencies (castable-video, ...) ([#1087](https://github.com/erickirt/elements/issues/1087)) ([dc84f07](https://github.com/erickirt/elements/commit/dc84f07109565dc7ee29d691a0fc941c6854f762))
+* upgrade deps custom-media-element, hls.js, mux-embed, ... ([#1052](https://github.com/erickirt/elements/issues/1052)) ([dd4264d](https://github.com/erickirt/elements/commit/dd4264d51671989a29c037e912a128056acea5f8))
+* upgrade media-chrome, upchunk, React types ([#904](https://github.com/erickirt/elements/issues/904)) ([1090ad6](https://github.com/erickirt/elements/commit/1090ad690261acd7ac1ab68b45801c46be1c2d0c))
+* upgrade mux-embed v5.2.0 & media-chrome v3.2.0 ([#897](https://github.com/erickirt/elements/issues/897)) ([fd91d94](https://github.com/erickirt/elements/commit/fd91d946ee2f8e58e05551fcb247422de6fbb761))
+
+
+### Miscellaneous Chores
+
+* **mux-uploader:** refactor percentage progress into progress component ([#555](https://github.com/erickirt/elements/issues/555)) ([5331f61](https://github.com/erickirt/elements/commit/5331f615d6e9b4e9b0590b8862df63d98d216a78))
+* Upgrade media chrome to 4.1.0 ([#978](https://github.com/erickirt/elements/issues/978)) ([ff78173](https://github.com/erickirt/elements/commit/ff781732c86719de2ea7e54987c75178ac42bbd6))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @mux/mux-uploader bumped from 1.4.1 to 2.0.0
+
 ## [1.4.1](https://github.com/muxinc/elements/compare/@mux/mux-uploader-react@1.4.0...@mux/mux-uploader-react@1.4.1) (2025-12-04)
 
 
