@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.0.0](https://github.com/erickirt/elements/compare/@mux/mux-player-astro@3.13.1...@mux/mux-player-astro@4.0.0) (2026-07-24)
+
+
+### Features
+
+* Add ABR startup quality attributes ([#1315](https://github.com/erickirt/elements/issues/1315)) ([3cdf0bc](https://github.com/erickirt/elements/commit/3cdf0bc7e21e3230b3ceec7a0ae9e2c6818cb4dd))
+* add nomutedpref prop to mux player ([#1222](https://github.com/erickirt/elements/issues/1222)) ([ce091c9](https://github.com/erickirt/elements/commit/ce091c978e7926eb3ee3fbb894cf471e2d13ea58))
+* **astro:** add native Astro support with `MuxPlayer` and `MuxUploader` components ([#1167](https://github.com/erickirt/elements/issues/1167)) ([e0183ec](https://github.com/erickirt/elements/commit/e0183eceb30b98542356972f39652ce0ccf587ff))
+* Include Astro v6 peer dependency ([#1316](https://github.com/erickirt/elements/issues/1316)) ([f9c62e9](https://github.com/erickirt/elements/commit/f9c62e944dc66f7adce400c23f52f7a90247591e))
+* **mux-player-react:** Force minor version bump via conventional commits. ([201bfcd](https://github.com/erickirt/elements/commit/201bfcd2a4137b2c409d1ce5fb3b32576a99ba31))
+
+
+### Bug Fixes
+
+* add repository to astro packages package.json ([58e450a](https://github.com/erickirt/elements/commit/58e450a7f0ba27fb18524995e641804a295dd81d))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @mux/mux-player bumped from 3.13.1 to 4.0.0
+    * @mux/playback-core bumped from 0.35.1 to 0.36.0
+
 ## [3.13.1](https://github.com/muxinc/elements/compare/@mux/mux-player-astro@3.13.0...@mux/mux-player-astro@3.13.1) (2026-05-14)
 
 
